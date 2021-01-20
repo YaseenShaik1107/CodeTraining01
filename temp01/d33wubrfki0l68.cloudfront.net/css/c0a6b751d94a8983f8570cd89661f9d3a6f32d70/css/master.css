@@ -1,0 +1,389 @@
+@font-face {
+    font-family: leitura_newsitalic_bold;
+    src: url(https://d33wubrfki0l68.cloudfront.net/7b8fc207d67c7bb246e2e77530deedd60d7f0238/10ea7/fonts/334742-webfont.eot);
+    src: url(https://d33wubrfki0l68.cloudfront.net/7b8fc207d67c7bb246e2e77530deedd60d7f0238/10ea7/fonts/334742-webfont.eot#iefix) format('embedded-opentype'), url(https://d33wubrfki0l68.cloudfront.net/3c2fdcceab93d01bd1547b2890a601a380e05e22/db051/fonts/334742-webfont.woff2) format('woff2'), url(https://d33wubrfki0l68.cloudfront.net/ff70e44f10d61b8d8ef02a720aa04e86aab40a1e/1cdc1/fonts/334742-webfont.woff) format('woff'), url(https://d33wubrfki0l68.cloudfront.net/236c3ffb8ddf2e68b4c0e5d1427e74cea574c0be/ddfba/fonts/334742-webfont.ttf) format('truetype'), url(https://d33wubrfki0l68.cloudfront.net/04b758c92a9bd1833b3fc6c77413426c57155cec/7ba12/fonts/334742-webfont.svg#leitura_newsitalic_4) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: leitura_newsroman_bold;
+    src: url(https://d33wubrfki0l68.cloudfront.net/055b306aa50df5ad67c5e92256c21ed68c697d1a/40934/fonts/334744-webfont.eot);
+    src: url(https://d33wubrfki0l68.cloudfront.net/055b306aa50df5ad67c5e92256c21ed68c697d1a/40934/fonts/334744-webfont.eot#iefix) format('embedded-opentype'), url(https://d33wubrfki0l68.cloudfront.net/9bbde3bd725ca524e562e164dd6267778aba6a37/0455d/fonts/334744-webfont.woff2) format('woff2'), url(https://d33wubrfki0l68.cloudfront.net/6f9a724805e869579c1a472f755264aeb4f047f6/adc20/fonts/334744-webfont.woff) format('woff'), url(https://d33wubrfki0l68.cloudfront.net/d9ac09bc8652ab6e47c16c5299df4649e03e69b9/529ec/fonts/334744-webfont.ttf) format('truetype'), url(https://d33wubrfki0l68.cloudfront.net/03fec003f58efefe2014cf04258126c16b0e2118/20e4a/fonts/334744-webfont.svg#leitura_newsroman_4) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: leitura_newsitalic;
+    src: url(https://d33wubrfki0l68.cloudfront.net/d9c336e9137557d0b9b09c52af3f527f07071fcc/2167b/fonts/334747-webfont.eot);
+    src: url(https://d33wubrfki0l68.cloudfront.net/d9c336e9137557d0b9b09c52af3f527f07071fcc/2167b/fonts/334747-webfont.eot#iefix) format('embedded-opentype'), url(https://d33wubrfki0l68.cloudfront.net/ee0f70360616427d9278228a1d9dc8b7f4f2de07/a340e/fonts/334747-webfont.woff2) format('woff2'), url(https://d33wubrfki0l68.cloudfront.net/163db3ae6deaa2a90c7480fa9196ea0a0a50e009/4d519/fonts/334747-webfont.woff) format('woff'), url(https://d33wubrfki0l68.cloudfront.net/4cc7f1695007a5bacf8cf0fb18749d3146f9595c/058ea/fonts/334747-webfont.ttf) format('truetype'), url(https://d33wubrfki0l68.cloudfront.net/0b054290c69f33c280098c6049d3df6dced1ef6b/ac750/fonts/334747-webfont.svg#leitura_newsitalic_2) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: leitura_newsroman;
+    src: url(https://d33wubrfki0l68.cloudfront.net/bee77b0316474c8268cd3f2c38c153bdc5258c72/709be/fonts/334753-webfont.eot);
+    src: url(https://d33wubrfki0l68.cloudfront.net/bee77b0316474c8268cd3f2c38c153bdc5258c72/709be/fonts/334753-webfont.eot#iefix) format('embedded-opentype'), url(https://d33wubrfki0l68.cloudfront.net/89eeee29c405910212068e8a3d1da2af5ba99067/58b05/fonts/334753-webfont.woff2) format('woff2'), url(https://d33wubrfki0l68.cloudfront.net/fab0e359d8072ce555fb7f7fcd21370206b665d8/3275a/fonts/334753-webfont.woff) format('woff'), url(https://d33wubrfki0l68.cloudfront.net/94ccd607beb95fb5420f2621bed34f56706020e7/51a6a/fonts/334753-webfont.ttf) format('truetype'), url(https://d33wubrfki0l68.cloudfront.net/0a2d987e8dab9c47bda36648e48d1a1cc22b5a7b/12f70/fonts/334753-webfont.svg#leitura_newsroman_2) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background: 0 0
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+html {
+    font-size: 16px;
+    font-size: 100%
+}
+
+body {
+    font-family: leitura_newsroman, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fafafa;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size-adjust: auto
+}
+
+body {
+    background-color: #222;
+    height: 100%;
+    font-size: 2em
+}
+
+@media (max-width:720px) {
+    body {
+        font-size: 1.2em
+    }
+}
+
+body .centered {
+    padding: 10%;
+    position: relative;
+    z-index: 5
+}
+
+@media (max-width:720px) {
+    body .centered {
+        padding: 5%
+    }
+}
+
+body h1, body h2, body h3 {
+    font-weight: 400
+}
+
+body .salutation, body h1, body h2 {
+    font-family: leitura_newsitalic_bold, Georgia, Cambria, "Times New Roman", Times, serif
+}
+/*
+body .salutation, body h1 {
+    font-size: 10rem;
+    margin: 0
+}
+*/
+@media (max-width:720px) {
+    body .salutation, body h1 {
+        font-size: 6.5rem
+    }
+}
+
+@media (max-width:720px) {
+    body h1 {
+        margin-top: 4rem
+    }
+}
+
+body h2 {
+    font-size: 1rem;
+    margin: -2.5rem 0 5rem .2rem
+}
+
+body h3 {
+    font-size: 2rem;
+    font-family: Comic Sans MS;
+    margin: -2.5rem 0 5rem .2rem
+}
+
+@media (max-width:720px) {
+    body h2 {
+        margin-top: -1.8rem
+    }
+}
+
+body h2, body h3 {
+    color: #b3b3b3
+}
+
+body .strikeout {
+    text-decoration: line-through;
+    color: #4d4d4d
+}
+
+body .accent, body strong {
+    color: #ff7660
+}
+
+body a {
+    color: #fff;
+    font-family: leitura_newsitalic, Georgia, Cambria, "Times New Roman", Times, serif;
+    text-decoration: none;
+    -webkit-transition: color .1s linear;
+    transition: color .1s linear
+}
+
+body a:hover {
+    color: #ff7660
+}
+
+@media (max-width:480px) {
+    body .salutation {
+        font-size: 4rem
+    }
+}
+
+body .salutation .accent {
+    margin-left: -3.2rem
+}
+
+@media (max-width:720px) {
+    body .salutation .accent {
+        margin-left: -2.08rem
+    }
+}
+
+@media (max-width:480px) {
+    body .salutation .accent {
+        margin-left: -1.28rem
+    }
+}
+
+.gradient-overlay {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0) 0, #222 85%, #222 100%);
+    background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0) 0, #222 85%, #222 100%);
+    background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0, #222 85%, #222 100%)
+}
+
+#particles {
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+@media (max-width:480px) {
+    #particles {
+        opacity: .5
+    }
+}
+
+#particles canvas {
+    position: absolute;
+    top: 0
+}
+
+#particles .container {
+    position: relative;
+    z-index: 3
+}
+
+.opl {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 99999
+}
+
+.opl a {
+    width: 73px;
+    height: 56px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../../../../s3.amazonaws.com/onepagelove/one-page-love-award-right.png) no-repeat
+}
